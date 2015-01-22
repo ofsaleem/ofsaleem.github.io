@@ -7,5 +7,5 @@ defaults:
                         path: ""
                         type: "posts"
                 values:
-                layout: "default"
+                        layout: "default"
 
