@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>http://ofsaleem.me/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-08-12T00:21:32+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://ofsaleem.me/ko/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ofsaleem.me/</loc>
+    <lastmod>2020-08-17T23:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/posts/test-post/</loc>
+    <lastmod>2020-08-17T23:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/posts/</loc>
+    <lastmod>2020-08-17T23:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/posts/embedded-tracker/</loc>
+    <lastmod>2020-08-17T16:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/posts/my-first-post/</loc>
+    <lastmod>2020-08-12T00:21:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/series/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/tags/</loc>
+  </url>
+  
+</urlset>
