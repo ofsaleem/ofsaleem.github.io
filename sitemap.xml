@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ofsaleem.me/</loc>
-    <lastmod>2020-08-18T03:06:04-04:00</lastmod>
+    <loc>http://ofsaleem.me/posts/discord-streamer/</loc>
+    <lastmod>2020-08-21T19:32:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ofsaleem.me/posts/test-post/</loc>
-    <lastmod>2020-08-18T03:06:04-04:00</lastmod>
+    <loc>http://ofsaleem.me/</loc>
+    <lastmod>2020-08-21T19:32:25-04:00</lastmod>
   </url>
   
   <url>
     <loc>http://ofsaleem.me/posts/</loc>
+    <lastmod>2020-08-21T19:32:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ofsaleem.me/posts/test-post/</loc>
     <lastmod>2020-08-18T03:06:04-04:00</lastmod>
   </url>
   
