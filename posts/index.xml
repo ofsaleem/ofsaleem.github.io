@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Posts on Hugo Zzo Theme</title>
+    <link>http://ofsaleem.me/posts/</link>
+    <description>Recent content in Posts on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ofsaleem@gmail.com (omar saleem)</managingEditor>
+    <webMaster>ofsaleem@gmail.com (omar saleem)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 02 Jan 2021 00:21:40 -0500</lastBuildDate>
+    
+        <atom:link href="http://ofsaleem.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Metal Gear Solid RetroArch Settings</title>
+        <link>http://ofsaleem.me/posts/metal-gear-solid-retroarch-settings/</link>
+        <pubDate>Sat, 02 Jan 2021 00:21:40 -0500</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Sat, 02 Jan 2021 01:29:34 -0500</atom:modified>
+        <guid>http://ofsaleem.me/posts/metal-gear-solid-retroarch-settings/</guid>
+        <description>I recently played through Death Stranding and loved it so much I decided to check out the rest of Kojima&amp;rsquo;s famous work. Unfortunately Konami has made it pretty difficult to enjoy the entire Metal Gear series on modern systems. All the games are available, but usually not in the same package, none are on PS4, and the recent GOG PC releases are apparently the original not-great releases. There&amp;rsquo;s an HD collection on the PS3, that I planned on playing via PS Now (can&amp;rsquo;t stream PS3 without an HDCP stripper, which I&amp;rsquo;m not about to buy) but that starts with MGS2 for some reason.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Windows Bootloader Issue</title>
+        <link>http://ofsaleem.me/posts/windows-bootloader-issue/</link>
+        <pubDate>Fri, 11 Sep 2020 00:27:03 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Mon, 14 Sep 2020 07:39:40 -0400</atom:modified>
+        <guid>http://ofsaleem.me/posts/windows-bootloader-issue/</guid>
+        <description>over the past day i swapped my computer case to a new one. its real shiny and nice (fractal define 7, all white)
+it was a real PITA to put together because i have so many hard drives, i had to configure the case (which is modular and nearly fully disassemblable) into &amp;ldquo;storage mode&amp;rdquo; which involves taking apart most of the case and putting it back together differently. i also had issues following a lot of the instructions since i was trying probably too hard to plan ahead and make sure cable management would be easy and good when i was done</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Currently Playing Stack</title>
+        <link>http://ofsaleem.me/posts/currently-playing-stack/</link>
+        <pubDate>Tue, 01 Sep 2020 02:06:35 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Sat, 02 Jan 2021 01:03:13 -0500</atom:modified>
+        <guid>http://ofsaleem.me/posts/currently-playing-stack/</guid>
+        <description>here&amp;rsquo;s a &amp;ldquo;stack&amp;rdquo; of my currently playing (single-player or story) games, most current on top
+this way i can try to make sure i finish what im in the middle of before i start too many other games
+ Metal Gear Solid Cosmic Star Heroine Disco Elysium Need for Speed Heat Persona 4 Golden Half-Life: Alyx Doom: Eternal Star Wars Jedi: Fallen Order Luigi&amp;rsquo;s Mansion 3 AI: The Somnium Files Monster Hunter World: Iceborne Resident Evil 2: (Second story, Leon)  </description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Discord Streamer</title>
+        <link>http://ofsaleem.me/posts/discord-streamer/</link>
+        <pubDate>Fri, 21 Aug 2020 19:24:44 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 11 Sep 2020 00:43:27 -0400</atom:modified>
+        <guid>http://ofsaleem.me/posts/discord-streamer/</guid>
+        <description>i wanted to stream SGDQ into a discord voice channel over the course of the week without needing to keep my desktop on. tried doing it with laptop but it was so chuggy
+what i ended up doing was
+get a g2.2xlarge windows instance on aws.
+rdp in to the instance from my laptop log in, get twitch desktop app, log in, get discord desktop app, log in.
+enable audio in rdp settings to play on the local computer</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>My third Post</title>
+        <link>http://ofsaleem.me/posts/test-post/</link>
+        <pubDate>Mon, 17 Aug 2020 23:31:00 +0000</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Tue, 18 Aug 2020 03:06:04 -0400</atom:modified>
+        <guid>http://ofsaleem.me/posts/test-post/</guid>
+        <description>testing 3
+Some third party entries in your sources.list were disabled. You can
+re-enable them after the upgrade with the &amp;lsquo;software-properties&amp;rsquo; tool
+or your package manager.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>embedded tracker</title>
+        <link>http://ofsaleem.me/posts/embedded-tracker/</link>
+        <pubDate>Mon, 17 Aug 2020 16:13:00 +0000</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Tue, 18 Aug 2020 03:06:04 -0400</atom:modified>
+        <guid>http://ofsaleem.me/posts/embedded-tracker/</guid>
+        <description>create the tracker with your public ip and port as the tracker url, but then once youre seeding, change the tracker url locally to your local ip. then it should connect.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>My First Post</title>
+        <link>http://ofsaleem.me/posts/my-first-post/</link>
+        <pubDate>Wed, 12 Aug 2020 00:21:32 +0000</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Tue, 11 Aug 2020 21:12:09 -0400</atom:modified>
+        <guid>http://ofsaleem.me/posts/my-first-post/</guid>
+        <description>i am a cow
+i am not a cat
+moo im a cow</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
