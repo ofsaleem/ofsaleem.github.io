@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on Hugo Zzo Theme</title>
+    <title>Posts on Omar&#39;s Blog</title>
     <link>http://ofsaleem.me/posts/</link>
-    <description>Recent content in Posts on Hugo Zzo Theme</description>
+    <description>Recent content in Posts on Omar&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ofsaleem@gmail.com (omar saleem)</managingEditor>
@@ -64,7 +64,7 @@ it was a real PITA to put together because i have so many hard drives, i had to 
         <link>http://ofsaleem.me/posts/currently-playing-stack/</link>
         <pubDate>Tue, 01 Sep 2020 02:06:35 -0400</pubDate>
         <author>ofsaleem@gmail.com (omar saleem)</author>
-        <atom:modified>Sun, 04 Aug 2024 23:51:28 -0400</atom:modified>
+        <atom:modified>Mon, 05 Aug 2024 00:06:46 -0400</atom:modified>
         <guid>http://ofsaleem.me/posts/currently-playing-stack/</guid>
         <description>here&amp;rsquo;s a &amp;ldquo;stack&amp;rdquo; of my currently playing (single-player or story) games, most current on top
 this way i can try to make sure i finish what im in the middle of before i start too many other games
