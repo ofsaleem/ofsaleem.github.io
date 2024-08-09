@@ -1227,7 +1227,7 @@
 
 
 <meta name="created" content="2024-08-09T00:03:47-0400">
-<meta name="modified" content="2024-08-09T00:15:54-0400">
+<meta name="modified" content="2024-08-09T00:20:45-0400">
 <meta property="article:published_time" content="2024-08-09T00:03:47-0400">
 
 <meta name="author" content="omar saleem">
@@ -1609,6 +1609,285 @@ if (!doNotTrack) {
 
     <div class="summary-classic__content">
       <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/thefuck-imp-error/'>thefuck Imp Error</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            After upgrading WSL2 to 24.04 Noble, thefuck stopped working with the error ModuleNotFoundError: No module named 'imp'. It&rsquo;s a known issue that stems from thefuck using a very deprecated Python package. Ubuntu in 24.04 now uses Python 3.12 which has removed that package, causing thefuck to break. You can&rsquo;t pip install the latest version either, as you get an error about Python being &ldquo;externally managed&rdquo; now. So the fix is to use pipx to install thefuck into a virtualenv that uses Python 3.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/updating-wsl2-to-noble/'>Updating WSL2 to Noble</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            Running my WSL2 on Ubuntu 22.04 Jammy Jellyfish, and wanted to update to 24.04 Noble Numbat.
+Make sure we&rsquo;re up to date
+sudo apt update &amp;&amp; sudo apt full-upgrade Close terminal, quit Docker Desktop In PowerShell:
+wsl -l -v (make sure we know what our Linux is called, probably Ubuntu)
+wsl --terminate Ubuntu (took a few tries / waiting a bit, make sure it says stopped) Open a terminal, which will restart Ubuntu
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/raspberry-pi-2-rainbow-screen/'>Raspberry Pi 2 Rainbow Screen</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            I have a Raspberry Pi 2 Model B that I use for my WireHole setup. It&rsquo;s pretty aged at this point and sort of fails whenever I try to update it. Oftentimes SSH just stops randomly working entirely until I update sshd, but doing a general system upgrade causes the device to fail to boot properly. I get stuck with a rainbow screen on boot and it continues to not respond to SSH.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/syncing-only-plexmatch-files/'>Syncing Only .plexmatch Files</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            The file syncing application I use to sync between my local data and my NAS (probably wisely) skips files that start with a . but I want my .plexmatch files to sync to my NAS too. I could remove this exception but I figured it&rsquo;s probably best to not worry about that. I decided to sync them directly with rsync. Below is a method to sync all the files from all the subdirectories that match your input.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/plex-not-detecting-subtitles/'>Plex Not Detecting Subtitles</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            I noticed a whole season of one of my shows didn&rsquo;t have subtitles on Plex. This is odd because every other season did, so I went to check the actual folders. All of the subtitles were there, and were actually named correctly too. I wasn&rsquo;t sure why they weren&rsquo;t showing up in Plex, so I renamed the files from ...en.srt to just ...srt and they showed up. This was even more odd because there weren&rsquo;t any issues with any other subtitles named that way, so I renamed them back.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/nginx-proxy-manager-update-broke/'>Nginx Proxy Manager Update Broke</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            While back I updated my nginx-proxy-manager container and it broke, throwing an error message similar to this:
+[nginx ] nginx: [emerg] cannot load certificate &quot;/etc/letsencrypt/live/npm-3/fullchain.pem&quot;
+If you google around you can find this GitHub issue about the problem, that suggests your certs are lost forever if you didn&rsquo;t have the folder set as a volume or have a backup. I do actually have the folder as a local folder mounted as a volume, so I was confused about why I was seeing the error when all my certs were there.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/wireguard-reverse-proxy-issues/'>WireGuard Reverse Proxy Issues</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;2&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            I use WireGuard (as part of WireHole) to allow my mobile devices to access my internal network when I&rsquo;m not at home. I use an nginx reverse proxy container so I can use hostnames and SSL to access all my internal services, but some of these are public services and some of them are private.
+I have all the hostnames registered with my registrar, and I have the private ones set up with private IPs for the A record.
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
+        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/docker-desktop-stuck-stopping/'>Docker Desktop Stuck Stopping</a> </h5>
+        <h6 class="subtitle caption">
+          <time title="Written At" dir="ltr">📅&nbsp;Aug 8, 2024 </time>
+          
+          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 9, 2024 </time>
+          
+          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
+          
+        </h6>
+      </header>
+      <div>
+        <div class="summary-classic__text p2">
+          
+            I use Docker Desktop with WSL2 on my Windows computer. Some days when Docker Desktop tries to update or I have some other issue with it, it gets stuck stopping even after killing the associated processes in task manager. I would restart Docker Desktop and it would still say &ldquo;Docker Desktop stopping.&rdquo;
+The way I fixed it was:
+Make sure Docker Desktop is totally stopped. Stop the app, kill the processes, everything Open powershell (my notes say I did this in an admin console but I&rsquo;m not sure if it&rsquo;s necessary to be admin) wsl --shutdown wsl --unregister docker-desktop wsl --unregister docker-desktop-data Then start Docker Desktop again and let it start WSL etc This worked for me but there&rsquo;s a big caveat I think, the Microsoft docs have this :
+          
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <hr />
+</article>
+
+            
+                
+  <article class="summary-classic" data-ani="true">
+  <div class="summary-classic__flex-box" >
+
+    
+
+    <div class="summary-classic__content">
+      <header>
         <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/metal-gear-solid-retroarch-settings/'>Metal Gear Solid RetroArch Settings</a> </h5>
         <h6 class="subtitle caption">
           <time title="Written At" dir="ltr">📅&nbsp;Jan 2, 2021 </time>
@@ -1779,78 +2058,34 @@ or your package manager.
 </article>
 
             
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/embedded-tracker/'>embedded tracker</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Aug 17, 2020 </time>
-          
-          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 18, 2020 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            create the tracker with your public ip and port as the tracker url, but then once youre seeding, change the tracker url locally to your local ip. then it should connect.
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
-                
-  <article class="summary-classic" data-ani="true">
-  <div class="summary-classic__flex-box" >
-
-    
-
-    <div class="summary-classic__content">
-      <header>
-        <h5 class="title h5"><a href='http://ofsaleem.me/en/posts/my-first-post/'>My First Post</a> </h5>
-        <h6 class="subtitle caption">
-          <time title="Written At" dir="ltr">📅&nbsp;Aug 12, 2020 </time>
-          
-          <time title="Modified At" dir="ltr"> &middot; 📝&nbsp;Aug 11, 2020 </time>
-          
-          <span title="Reading Time" dir="ltr"> &middot; ☕&nbsp;1&nbsp;min read </span>
-          
-        </h6>
-      </header>
-      <div>
-        <div class="summary-classic__text p2">
-          
-            i am a cow
-i am not a cat
-moo im a cow
-          
-        </div>
-      </div>
-    </div>
-
-    
-    
-  </div>
-  <hr />
-</article>
-
-            
             
 
+
+  
+  
+  
+  
+    
+  
+  <ul class="pagination">
+    
+      
+      <script>
+      </script>
+      
+        <li
+        class="active"><a href="/en/">1</a></li>
+      
+    
+      
+      <script>
+      </script>
+      
+        <li
+        ><a href="/en/page/2/">2</a></li>
+      
+    
+  </ul>
 
         </div>
         <div class="search-result" data-display="none">
@@ -2034,23 +2269,23 @@ moo im a cow
             <ul class="sidebar-recent__ul">
                 
                     <li>
-                        <a href="/en/posts/metal-gear-solid-retroarch-settings/" class="sidebar-recent__a p2">Metal Gear Solid RetroArch Settings</a>
+                        <a href="/en/posts/thefuck-imp-error/" class="sidebar-recent__a p2">thefuck Imp Error</a>
                     </li>
                 
                     <li>
-                        <a href="/en/posts/windows-bootloader-issue/" class="sidebar-recent__a p2">Windows Bootloader Issue</a>
+                        <a href="/en/posts/updating-wsl2-to-noble/" class="sidebar-recent__a p2">Updating WSL2 to Noble</a>
                     </li>
                 
                     <li>
-                        <a href="/en/posts/currently-playing-stack/" class="sidebar-recent__a p2">Currently Playing Stack</a>
+                        <a href="/en/posts/raspberry-pi-2-rainbow-screen/" class="sidebar-recent__a p2">Raspberry Pi 2 Rainbow Screen</a>
                     </li>
                 
                     <li>
-                        <a href="/en/posts/discord-streamer/" class="sidebar-recent__a p2">Discord Streamer</a>
+                        <a href="/en/posts/syncing-only-plexmatch-files/" class="sidebar-recent__a p2">Syncing Only .plexmatch Files</a>
                     </li>
                 
                     <li>
-                        <a href="/en/posts/test-post/" class="sidebar-recent__a p2">My third Post</a>
+                        <a href="/en/posts/plex-not-detecting-subtitles/" class="sidebar-recent__a p2">Plex Not Detecting Subtitles</a>
                     </li>
                 
             </ul>

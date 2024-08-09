@@ -23,6 +23,159 @@
 
       
       <item>
+        <title>thefuck Imp Error</title>
+        <link>http://ofsaleem.me/en/posts/thefuck-imp-error/</link>
+        <pubDate>Fri, 09 Aug 2024 00:03:47 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/thefuck-imp-error/</guid>
+        <description>After upgrading WSL2 to 24.04 Noble, thefuck stopped working with the error ModuleNotFoundError: No module named &#39;imp&#39;. It&amp;rsquo;s a known issue that stems from thefuck using a very deprecated Python package. Ubuntu in 24.04 now uses Python 3.12 which has removed that package, causing thefuck to break. You can&amp;rsquo;t pip install the latest version either, as you get an error about Python being &amp;ldquo;externally managed&amp;rdquo; now. So the fix is to use pipx to install thefuck into a virtualenv that uses Python 3.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Updating WSL2 to Noble</title>
+        <link>http://ofsaleem.me/en/posts/updating-wsl2-to-noble/</link>
+        <pubDate>Thu, 08 Aug 2024 23:40:19 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/updating-wsl2-to-noble/</guid>
+        <description>Running my WSL2 on Ubuntu 22.04 Jammy Jellyfish, and wanted to update to 24.04 Noble Numbat.
+Make sure we&amp;rsquo;re up to date
+sudo apt update &amp;amp;&amp;amp; sudo apt full-upgrade Close terminal, quit Docker Desktop In PowerShell:
+wsl -l -v (make sure we know what our Linux is called, probably Ubuntu)
+wsl --terminate Ubuntu (took a few tries / waiting a bit, make sure it says stopped) Open a terminal, which will restart Ubuntu</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Raspberry Pi 2 Rainbow Screen</title>
+        <link>http://ofsaleem.me/en/posts/raspberry-pi-2-rainbow-screen/</link>
+        <pubDate>Thu, 08 Aug 2024 22:56:07 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/raspberry-pi-2-rainbow-screen/</guid>
+        <description>I have a Raspberry Pi 2 Model B that I use for my WireHole setup. It&amp;rsquo;s pretty aged at this point and sort of fails whenever I try to update it. Oftentimes SSH just stops randomly working entirely until I update sshd, but doing a general system upgrade causes the device to fail to boot properly. I get stuck with a rainbow screen on boot and it continues to not respond to SSH.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Syncing Only .plexmatch Files</title>
+        <link>http://ofsaleem.me/en/posts/syncing-only-plexmatch-files/</link>
+        <pubDate>Thu, 08 Aug 2024 22:05:21 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/syncing-only-plexmatch-files/</guid>
+        <description>The file syncing application I use to sync between my local data and my NAS (probably wisely) skips files that start with a . but I want my .plexmatch files to sync to my NAS too. I could remove this exception but I figured it&amp;rsquo;s probably best to not worry about that. I decided to sync them directly with rsync. Below is a method to sync all the files from all the subdirectories that match your input.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Plex Not Detecting Subtitles</title>
+        <link>http://ofsaleem.me/en/posts/plex-not-detecting-subtitles/</link>
+        <pubDate>Thu, 08 Aug 2024 22:00:41 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/plex-not-detecting-subtitles/</guid>
+        <description>I noticed a whole season of one of my shows didn&amp;rsquo;t have subtitles on Plex. This is odd because every other season did, so I went to check the actual folders. All of the subtitles were there, and were actually named correctly too. I wasn&amp;rsquo;t sure why they weren&amp;rsquo;t showing up in Plex, so I renamed the files from ...en.srt to just ...srt and they showed up. This was even more odd because there weren&amp;rsquo;t any issues with any other subtitles named that way, so I renamed them back.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Nginx Proxy Manager Update Broke</title>
+        <link>http://ofsaleem.me/en/posts/nginx-proxy-manager-update-broke/</link>
+        <pubDate>Thu, 08 Aug 2024 21:46:03 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/nginx-proxy-manager-update-broke/</guid>
+        <description>While back I updated my nginx-proxy-manager container and it broke, throwing an error message similar to this:
+[nginx ] nginx: [emerg] cannot load certificate &amp;quot;/etc/letsencrypt/live/npm-3/fullchain.pem&amp;quot;
+If you google around you can find this GitHub issue about the problem, that suggests your certs are lost forever if you didn&amp;rsquo;t have the folder set as a volume or have a backup. I do actually have the folder as a local folder mounted as a volume, so I was confused about why I was seeing the error when all my certs were there.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>WireGuard Reverse Proxy Issues</title>
+        <link>http://ofsaleem.me/en/posts/wireguard-reverse-proxy-issues/</link>
+        <pubDate>Thu, 08 Aug 2024 21:04:39 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/wireguard-reverse-proxy-issues/</guid>
+        <description>I use WireGuard (as part of WireHole) to allow my mobile devices to access my internal network when I&amp;rsquo;m not at home. I use an nginx reverse proxy container so I can use hostnames and SSL to access all my internal services, but some of these are public services and some of them are private.
+I have all the hostnames registered with my registrar, and I have the private ones set up with private IPs for the A record.</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Docker Desktop Stuck Stopping</title>
+        <link>http://ofsaleem.me/en/posts/docker-desktop-stuck-stopping/</link>
+        <pubDate>Thu, 08 Aug 2024 19:55:38 -0400</pubDate>
+        <author>ofsaleem@gmail.com (omar saleem)</author>
+        <atom:modified>Fri, 09 Aug 2024 00:20:45 -0400</atom:modified>
+        <guid>http://ofsaleem.me/en/posts/docker-desktop-stuck-stopping/</guid>
+        <description>I use Docker Desktop with WSL2 on my Windows computer. Some days when Docker Desktop tries to update or I have some other issue with it, it gets stuck stopping even after killing the associated processes in task manager. I would restart Docker Desktop and it would still say &amp;ldquo;Docker Desktop stopping.&amp;rdquo;
+The way I fixed it was:
+Make sure Docker Desktop is totally stopped. Stop the app, kill the processes, everything Open powershell (my notes say I did this in an admin console but I&amp;rsquo;m not sure if it&amp;rsquo;s necessary to be admin) wsl --shutdown wsl --unregister docker-desktop wsl --unregister docker-desktop-data Then start Docker Desktop again and let it start WSL etc This worked for me but there&amp;rsquo;s a big caveat I think, the Microsoft docs have this :</description>
+        
+        <dc:creator>omar saleem</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>Metal Gear Solid RetroArch Settings</title>
         <link>http://ofsaleem.me/en/posts/metal-gear-solid-retroarch-settings/</link>
         <pubDate>Sat, 02 Jan 2021 00:21:40 -0500</pubDate>
